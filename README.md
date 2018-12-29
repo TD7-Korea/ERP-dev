@@ -1,2 +1,2 @@
 # ERP-dev
-ERP Software development Study
+Simple ERP Software development Study
