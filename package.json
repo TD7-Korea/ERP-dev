@@ -1,0 +1,15 @@
+{
+  "name": "erp-dev",
+  "version": "0.0.1",
+  "description": "Simple ERP Software Development",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "TD7-Korea.github.io"
+  },
+  "author": "TD7 Korea",
+  "license": "MIT"
+}
