@@ -1,0 +1,100 @@
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 0;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: #fff;
+  }
+  
+  .title { 
+    position: absolute;
+    font-size: 4rem;
+    font-weight: bold;
+    top: 20%;
+    left: 15%;
+  }
+  .login{
+    block-size: 4rem;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: 5px solid;
+    font-size: 2rem;
+    padding-left: 2%;
+  }
+
+  ::placeholder{
+    color: lightgray;
+    font-size: 2rem;
+  }
+
+  #email {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+  }
+
+  #password {
+    position: absolute;
+    top: 45%;
+    left: 15%;
+  }
+
+  #checkbox {
+    display: inline-block;
+    position: absolute;
+    top: 55%;
+    left: 60%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  #rememberme {
+    position: absolute;
+    top: 55%;
+    left: 65%;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  #login-btn {
+    display: block;
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    width: 300px;
+    height: 75px;
+    border-radius: 3rem;
+    background-color: navy;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  }
+
+  #forgotpassword {
+    position: absolute;
+    top: 64%;
+    left: 61.5%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: navy;
+    cursor: pointer;
+  }
+
+  /* Control the right side */
+  .right {
+    right: 0;
+    background: url('iamges/nightvilaagewithsnow.jpg') center center no=repeat;
+    background-size: cover;
+  }
